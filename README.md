@@ -24,8 +24,8 @@ where "numberOfProblem" is the DTLZ problem to solve, "NSample" is the size of s
 There are here examples of how to execute the roi_generator.  
 *  Linux.
 
-Sample = 10k,
-Seed = 3,
+Sample = 10k.
+Seed = 3.
 NumberofObjetives = 3.
 ```
 ./run_parallel 10000 3 3
@@ -33,9 +33,9 @@ NumberofObjetives = 3.
 
 *  Windows.
 
-Problems =  DTLZ 1,2;
-numberOfObjetives = 3, 5;
-NSample = 10k;
+Problems =  DTLZ 1,2.
+numberOfObjetives = 3, 5.
+NSample = 10k.
 Problem_instances_path = "..\DTLZ_INSTANCES\$numberOfObjetives\"DTLZ"+$numberOfProblem+"_Instance.txt".
 ```
 main.exe 1 10000 ..\DTLZ_INSTANCES\3\DTLZ1_Instance.txt
