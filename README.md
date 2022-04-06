@@ -10,7 +10,7 @@ To compile and run parallel from command line the ROI generator it is necessary 
 ```
 ./run_parallel NSample Seed numberofObjetives
 ```
-where "NSample" is the size of sample, "Seed" is a seed (Integer), and "numberOfObjetives" is the number of objectives to the problems
+where "NSample" is the size of sample, "Seed" is a seed (Integer) and "numberOfObjetives" is the number of objectives to the problems
 
 #DTLZ test problems in sequential execution to get optimal fronts without preferences (Windows)
 First, the file ".c" must be compilated for the execution in Windows OS.
@@ -22,7 +22,7 @@ where "numberOfProblem" is the DTLZ problem to solve, "NSample" is the size of s
 
 # Examples
 There are here examples of how to execute the roi_generator.  
-*  Linux:
+*  Linux.\n
 Sample = 10k
 Seed = 3
 NumberofObjetives = 3
