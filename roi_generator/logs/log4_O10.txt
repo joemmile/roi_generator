@@ -1,0 +1,27 @@
+Command: Problem  4, sample 50000, seed -1
+Reading instance
+NumberOfVariables  19, NumberOfObjectives  10, DMs   1
+Weigth
+	0.024000 0.042000, 0.068000 0.118000, 0.059000 0.103000, 0.068000 0.120000, 0.143000 0.251000, 0.111000 0.195000, 0.047000 0.081000, 0.031000 0.053000, 0.146000 0.256000, 0.031000 0.053000
+Veto
+	1.584000 1.683000, 1.402000 1.403000, 1.471000 1.688000, 1.220000 1.466000, 1.269000 1.384000, 1.242000 1.430000, 1.605000 1.660000, 1.498000 1.769000, 1.307000 1.337000, 1.541000 1.725000
+Beta
+	0.510000 0.750000
+Lamda
+	0.510000 0.670000
+Alpha
+	1.000000
+Sample size 50000
+Generating sample ...
+	Check dominance   0... ... size of F0 40411
+	Check dominance   1... ... size of F0 47688
+	Check dominance   2... ... size of F0 49437
+	Check dominance   3... ... size of F0 49893
+	Check dominance   4... ... size of F0 49974
+	Check dominance   5... ... size of F0 49997
+	Check dominance   6... ... size of F0 50000
+Saving ROI File... ROI_DTLZ4_V19_O10.txt
+
+real	25m12.125s
+user	23m16.598s
+sys	0m0.217s

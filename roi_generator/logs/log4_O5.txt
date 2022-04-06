@@ -1,0 +1,133 @@
+Command: Problem  4, sample 50000, seed -1
+Reading instance
+NumberOfVariables  14, NumberOfObjectives   5, DMs   1
+Weigth
+	0.203000 0.269000, 0.210000 0.280000, 0.240000 0.320000, 0.177000 0.235000, 0.028000 0.038000
+Veto
+	1.535000 1.544000, 1.366000 1.498000, 1.403000 1.427000, 1.477000 1.790000, 1.706000 1.742000
+Beta
+	0.510000 0.750000
+Lamda
+	0.510000 0.670000
+Alpha
+	1.000000
+Sample size 50000
+Generating sample ...
+	Check dominance   0... ... size of F0 9446
+	Check dominance   1... ... size of F0 14392
+	Check dominance   2... ... size of F0 18286
+	Check dominance   3... ... size of F0 21714
+	Check dominance   4... ... size of F0 24613
+	Check dominance   5... ... size of F0 27213
+	Check dominance   6... ... size of F0 29437
+	Check dominance   7... ... size of F0 31513
+	Check dominance   8... ... size of F0 33331
+	Check dominance   9... ... size of F0 34874
+	Check dominance  10... ... size of F0 36290
+	Check dominance  11... ... size of F0 37511
+	Check dominance  12... ... size of F0 38647
+	Check dominance  13... ... size of F0 39665
+	Check dominance  14... ... size of F0 40590
+	Check dominance  15... ... size of F0 41423
+	Check dominance  16... ... size of F0 42220
+	Check dominance  17... ... size of F0 42914
+	Check dominance  18... ... size of F0 43501
+	Check dominance  19... ... size of F0 44137
+	Check dominance  20... ... size of F0 44629
+	Check dominance  21... ... size of F0 45098
+	Check dominance  22... ... size of F0 45476
+	Check dominance  23... ... size of F0 45878
+	Check dominance  24... ... size of F0 46259
+	Check dominance  25... ... size of F0 46568
+	Check dominance  26... ... size of F0 46832
+	Check dominance  27... ... size of F0 47101
+	Check dominance  28... ... size of F0 47317
+	Check dominance  29... ... size of F0 47552
+	Check dominance  30... ... size of F0 47783
+	Check dominance  31... ... size of F0 47964
+	Check dominance  32... ... size of F0 48167
+	Check dominance  33... ... size of F0 48336
+	Check dominance  34... ... size of F0 48491
+	Check dominance  35... ... size of F0 48585
+	Check dominance  36... ... size of F0 48680
+	Check dominance  37... ... size of F0 48787
+	Check dominance  38... ... size of F0 48905
+	Check dominance  39... ... size of F0 49005
+	Check dominance  40... ... size of F0 49078
+	Check dominance  41... ... size of F0 49162
+	Check dominance  42... ... size of F0 49269
+	Check dominance  43... ... size of F0 49333
+	Check dominance  44... ... size of F0 49386
+	Check dominance  45... ... size of F0 49454
+	Check dominance  46... ... size of F0 49492
+	Check dominance  47... ... size of F0 49540
+	Check dominance  48... ... size of F0 49578
+	Check dominance  49... ... size of F0 49612
+	Check dominance  50... ... size of F0 49658
+	Check dominance  51... ... size of F0 49687
+	Check dominance  52... ... size of F0 49723
+	Check dominance  53... ... size of F0 49747
+	Check dominance  54... ... size of F0 49764
+	Check dominance  55... ... size of F0 49790
+	Check dominance  56... ... size of F0 49816
+	Check dominance  57... ... size of F0 49831
+	Check dominance  58... ... size of F0 49847
+	Check dominance  59... ... size of F0 49857
+	Check dominance  60... ... size of F0 49870
+	Check dominance  61... ... size of F0 49884
+	Check dominance  62... ... size of F0 49894
+	Check dominance  63... ... size of F0 49900
+	Check dominance  64... ... size of F0 49904
+	Check dominance  65... ... size of F0 49917
+	Check dominance  66... ... size of F0 49922
+	Check dominance  67... ... size of F0 49932
+	Check dominance  68... ... size of F0 49927
+	Check dominance  69... ... size of F0 49931
+	Check dominance  70... ... size of F0 49940
+	Check dominance  71... ... size of F0 49944
+	Check dominance  72... ... size of F0 49948
+	Check dominance  73... ... size of F0 49951
+	Check dominance  74... ... size of F0 49953
+	Check dominance  75... ... size of F0 49959
+	Check dominance  76... ... size of F0 49964
+	Check dominance  77... ... size of F0 49968
+	Check dominance  78... ... size of F0 49972
+	Check dominance  79... ... size of F0 49972
+	Check dominance  80... ... size of F0 49974
+	Check dominance  81... ... size of F0 49978
+	Check dominance  82... ... size of F0 49979
+	Check dominance  83... ... size of F0 49983
+	Check dominance  84... ... size of F0 49984
+	Check dominance  85... ... size of F0 49985
+	Check dominance  86... ... size of F0 49985
+	Check dominance  87... ... size of F0 49989
+	Check dominance  88... ... size of F0 49991
+	Check dominance  89... ... size of F0 49992
+	Check dominance  90... ... size of F0 49993
+	Check dominance  91... ... size of F0 49993
+	Check dominance  92... ... size of F0 49993
+	Check dominance  93... ... size of F0 49995
+	Check dominance  94... ... size of F0 49995
+	Check dominance  95... ... size of F0 49995
+	Check dominance  96... ... size of F0 49996
+	Check dominance  97... ... size of F0 49997
+	Check dominance  98... ... size of F0 49997
+	Check dominance  99... ... size of F0 49997
+	Check dominance 100... ... size of F0 49998
+	Check dominance 101... ... size of F0 49998
+	Check dominance 102... ... size of F0 49998
+	Check dominance 103... ... size of F0 49998
+	Check dominance 104... ... size of F0 49998
+	Check dominance 105... ... size of F0 49998
+	Check dominance 106... ... size of F0 49999
+	Check dominance 107... ... size of F0 49999
+	Check dominance 108... ... size of F0 49999
+	Check dominance 109... ... size of F0 49999
+	Check dominance 110... ... size of F0 49999
+	Check dominance 111... ... size of F0 49999
+	Check dominance 112... ... size of F0 50000
+Saving ROI File... ROI_DTLZ4_V14_O5.txt
+
+real	168m12.039s
+user	166m55.021s
+sys	0m0.213s

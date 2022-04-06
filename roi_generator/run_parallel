@@ -1,0 +1,23 @@
+#!/bin/bash
+#run.sh
+#run_parallel 5000 1 3
+echo "Making executable ..."
+gcc -o main main.c src/*.c -lm
+KSample=$1
+numberOfObjectives=$3
+Seed=$3
+
+echo "Size sample $KSample, Seed $Seed"
+
+if mkdir logs; then
+	echo "Log dir created"
+fi
+
+for N in `seq 1 7`
+do
+	echo "Executing DTLZ$N..."
+	varInstance="/home/joemmie/Documentos/jemoa-master/DTLZ_INSTANCES/$numberOfObjectives/DTLZ$N""_Instance.txt"
+	(time ./main $N $KSample $varInstance) &> logs/"log$N""_O"$numberOfObjectives".txt" &
+done
+wait
+echo "All tasks are done."

@@ -1,0 +1,21 @@
+#!/bin/bash
+#run.sh
+echo "Making executable ..."
+gcc -o main main.c src/*.c -lm
+KSample=$1
+numberOfObjectives=$2
+startProblem=1
+endProblem=9
+Seed=$3
+echo "Size sample $KSample, Seed $Seed, from $startProblem to $endProblem"
+
+if mkdir logs; then
+	echo "Log dir created"
+fi
+echo `seq $startProblem $endProblem`
+for N in `seq $startProblem $endProblem`
+do
+	echo "Executing DTLZ$N..."
+	varInstance="/home/joemmie/Documentos/jemoa-master/DTLZ_INSTANCES/$numberOfObjectives/DTLZ$N""_Instance.txt"
+	(time ./main $N $KSample $varInstance $Seed) &> logs/log$N.txt
+done
